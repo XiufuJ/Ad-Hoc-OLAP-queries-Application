@@ -38,9 +38,17 @@ The final project for CS562(Database Management System II) at Stevens Institute 
     ii) The generated JAVA files are all in the document 'Generated'.
 
     iii) QueryTest1.java to QueryTest2.java are for the test of the generated files.
+    
+    iv) The tested queries are int the file Sample Queries_PDF version.pdf
 
+### 5. About the sales table
+    The schema: 
+    
+    sales (cust,prod,day,month,year,state,quant) 
+    
+    The table stores the information about the purchases of a product by a customer on a date and state for a sale amount.
 
-### 5. About the input.
+### 6. About the input.
 
     i) All the libraries are included in the document "lib", we changed the class path so that it should be working 
        without adding libraries again.
