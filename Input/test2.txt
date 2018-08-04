@@ -1,0 +1,11 @@
+tableName: sales
+partOfUrl: postgres
+user: postgres
+password: postgresxiufujiang
+className: QueryTest2
+outputPosition: ./Generated/
+projections: prod, month, sum_1_quant/sum_2_quant
+where: year=2002
+groupBy: prod, month
+aggregates: sum_1_quant, sum_2_quant
+suchThat: prod_1=prod_0 and month_1=month_0, prod_2=prod_0

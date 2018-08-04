@@ -1,0 +1,11 @@
+tableName: sales
+partOfUrl: postgres
+user: postgres
+password: postgresxiufujiang
+className: QueryTest1
+outputPosition: ./Generated/
+projections: cust, avg_1_quant, avg_2_quant, avg_3_quant
+where: year=2001
+groupBy: cust
+aggregates: avg_0_quant, cnt_0_quant, sum_0_quant, avg_1_quant, cnt_1_quant, sum_1_quant, avg_2_quant, avg_3_quant
+suchThat: cust_1=cust_0 and state_1="NY" , cust_2=cust_0  and state_2="CT", cust_3=cust_0 and state_3="NJ"

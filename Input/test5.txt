@@ -1,0 +1,10 @@
+tableName: sales
+partOfUrl: postgres
+user: postgres
+password: postgresxiufujiang
+className: QueryTest5
+outputPosition: ./Generated/
+projections: cust, prod, avg_1_quant, avg_2_quant
+groupBy: cust, prod
+aggregates: avg_1_quant, avg_2_quant
+suchThat: cust_1=cust_0 and prod_1=prod_0, cust_2!=cust_0 and prod_2=prod_0

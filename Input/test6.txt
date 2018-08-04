@@ -1,0 +1,11 @@
+tableName: sales
+partOfUrl: postgres
+user: postgres
+password: postgresxiufujiang
+className: QueryTest6
+outputPosition: ./Generated/
+projections: prod, quant
+groupBy: prod,quant
+aggregates: cnt_1_quant, cnt_2_quant
+suchThat: prod_1=prod_0, prod_2=prod_0 and quant_2<quant_0
+having: cnt_2_quant=cnt_1_quant/2
