@@ -1,4 +1,4 @@
-# CS562-Database-Management-System-II-course-project
+# Ad-Hoc OLAP queries Application 
 The final project for CS562(Database Management System II) at Stevens Institute of Technology.
 
 ### This project made use of the Javapoet APIs.
